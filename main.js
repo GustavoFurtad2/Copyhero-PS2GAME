@@ -76,9 +76,9 @@ function main_menu() {
     Print("SAIR", 60, 370, 1.25,        Color.new(255, 255, 255, 64))
 
     const options = {
-        1: function() { set_message(option, "JOGAR") },
+        1: () => set_message(option, "JOGAR"),
         2: () =>set_message(option, "CONFIGURAR"),
-        3:  () => set_message(option, "SAIR")
+        3: () => set_message(option, "SAIR")
     };
 
 
