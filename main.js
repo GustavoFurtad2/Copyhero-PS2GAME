@@ -138,11 +138,12 @@ function game_playing() {
     for (const name in MUSIC_LIST) {
         i++
         if (option == i) {
-            showOption(option, name)
-        } 
-        else {
-            Print(name, 20 * i, 220 + (i * 50), 1.25, Color.new(255, 255, 255, 64))
+            Print(name, 20, 320, 1.25, Color.new(255, 255, 255, 64))
+            //showOption(option, name)
         }
+        //else {
+        //    Print(name, 20 + (0 * -option), (320 + (i * -50)), 1.25, Color.new(255, 255, 255, 64))
+        //}
     }
 }
 
@@ -152,7 +153,8 @@ while (1) {
     oldpad = pad
     pad = Pads.get()
     Draw.rect(0, 0, 640, 448, Color.new(194, 0, 0))
-
+    //Draw.rect(0, 0, 640, 448, Color.new(255, 255, 255))
+    //images.background_white.draw(0, 0)
     //console.log(gameState)
 
     if (gameState == GAME_MAINMENU) {
