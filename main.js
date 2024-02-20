@@ -7,6 +7,7 @@ let GAME_STATE = GAME_SELECTOR
 
 let time = Timer.new()
 
+let optionSelected = 1;
 function Menu() {
 
 }
