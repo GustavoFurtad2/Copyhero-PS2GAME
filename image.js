@@ -4,7 +4,10 @@ export let images = {
    "green" : new Image("green.png", RAM),
    "yellow": new Image("yellow.png", RAM),
    "orange": new Image("orange.png", RAM),
-   "red"   : new Image("red.png", RAM)
+   "red"   : new Image("red.png", RAM),
+
+   "favourite_worst_nightmare": new Image("albums/favourite_worst_nightmare.png", RAM),
+   "humbug": new Image("albums/humbug.png", RAM)
 }
 
 images.blue.width = 48
