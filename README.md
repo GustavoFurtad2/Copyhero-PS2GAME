@@ -1,4 +1,5 @@
-# HITTIME
+# Copyhero
 
-A Rythm homebrew game for Playstation 2 using Athena Enviroment
-<img src="picture.png">
+A Guitar hero homebrew game like for Playstation 2 using Athena Engine
+
+Progress ```5%```
